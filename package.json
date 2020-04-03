@@ -1,0 +1,20 @@
+{
+  "name": "zenfox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:westtrade/zf.git",
+  "author": "Popov Gennadiy <gennadiy.popov.87@yandex.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6",
+    "svelte": "^3.20.1",
+    "svelte-routing": "^1.4.2"
+  },
+  "scripts": {
+    "develop": "parcel ./src/index.html"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
+}
