@@ -8,7 +8,7 @@
 
 <div class="container">
 	<Router {url}>
-		<Route path="/user/:userId" component={User} />
-		<Route path="/" component={Catalog} />
+		<Route path="/zf/user/:userId" component={User} />
+		<Route path="/zf/" component={Catalog} />
 	</Router>
 </div>

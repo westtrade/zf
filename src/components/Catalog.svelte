@@ -50,7 +50,9 @@
 					{#each $catalog.data as item}
 						<tr>
 							<td>
-								<Link to={`/user/${item.id}`}>{item.name}</Link>
+								<Link to={`/zf/user/${item.id}`}>
+									{item.name}
+								</Link>
 
 							</td>
 							<td>{item.email}</td>
