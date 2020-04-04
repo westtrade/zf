@@ -45,7 +45,7 @@
 {:else}
 	<div class="row">
 		<div class="column header">
-			<Link to={`/?page=${lastPage || 1}`} class="button button-small">
+			<Link to={`/zf/?page=${lastPage || 1}`} class="button button-small">
 				back
 			</Link>
 			&nbsp;
