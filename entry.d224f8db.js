@@ -36,4 +36,4 @@ var t=arguments[3];function e(){}Object.defineProperty(exports,"__esModule",{val
 },{"svelte/internal":"YkLP","svelte-routing":"a1Qs","./Catalog.svelte":"lfLk","./User.svelte":"szmQ"}],"BZ3n":[function(require,module,exports) {
 "use strict";var e=t(require("./components/App.svelte"));function t(e){return e&&e.__esModule?e:{default:e}}const n=()=>new e.default({target:document.body});n();
 },{"./components/App.svelte":"HjHG"}]},{},["BZ3n"], null)
-//# sourceMappingURL=/entry.d224f8db.js.map
+//# sourceMappingURL=entry.d224f8db.js.map
