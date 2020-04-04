@@ -13,7 +13,7 @@
   },
   "scripts": {
     "develop": "parcel ./src/index.html",
-    "build": "NODE_ENV=production parcel build ./src/index.html"
+    "build": "NODE_ENV=production parcel build ./src/index.html --public-url ."
   },
   "browserslist": [
     "last 1 Chrome version"
