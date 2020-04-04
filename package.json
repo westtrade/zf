@@ -12,7 +12,8 @@
     "svelte-routing": "^1.4.2"
   },
   "scripts": {
-    "develop": "parcel ./src/index.html"
+    "develop": "parcel ./src/index.html",
+    "build": "NODE_ENV=production parcel build ./src/index.html"
   },
   "browserslist": [
     "last 1 Chrome version"
