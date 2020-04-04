@@ -63,8 +63,9 @@
 
 	{#each $userInfo.data as item}
 		<div class="row">
-			<div class="column">{item.completed ? '✔' : '	○'}</div>
-			<div class="column">{item.title}</div>
+			<div class="column">
+				{item.completed ? '✔' : '	○'} &nbsp;{item.title}
+			</div>
 		</div>
 	{/each}
 {/if}
